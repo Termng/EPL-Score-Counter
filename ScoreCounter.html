@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPL Score Counter</title>
+    <link rel="stylesheet" href="ScoreCounter.css">
+</head>
+
+<body>
+    <div id="Center-Element">
+        <h1>Premiere League Score Counter</h1>
+
+        <h2 id="ChelseaDisplay"> Chelsea:  </h2>
+        <h2 id= "UnitedDisplay"> Manchester United:  </h2>
+
+        <div id = "buttons">
+            <Button id="Chelsea-btn" onclick="AddChelsea()">Chelsea FC</Button>
+            <button id = 'United-btn' onclick="AddUnited()">Manchester United</button>
+        </div>
+
+        <button id = 'saveScore' onclick="save()"> Save Score </button>
+        <p id="displaySave"> Chelsea vs Manchester United : </p>
+    </div>
+
+<script src="ScoreCounter.js"> </script>
+</body>
+</html>
+
+

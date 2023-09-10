@@ -1,0 +1,93 @@
+/* Class is initialized using the '.' notation */
+/* ID is initialized using the '#' notation */
+/* other elements with tags initialized using the tag notation */
+
+h1{
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: hsl(0, 0%, 17%);
+    padding: 10px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: #180b30;
+    display: inline;
+    padding-right: 30px;
+}
+
+#counter {
+    color: rgb(28, 15, 40);
+    
+}
+
+#Chelsea-btn {
+    background-color: #2c6acd;
+    color: white;
+    width: fit-content;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent;
+}
+
+#United-btn{
+    background-color: #cf0f0f;
+    color: white;
+    width: fit-content;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent;
+
+}
+
+#saveScore {
+    background-color: #252525;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: fit-content;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent;
+}
+
+#buttons{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+#displaySave{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    padding-bottom: 20px;
+}
+
+
+#Center-Element{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1556056504-5c7696c4c28d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2176&q=80);
+    background-size: cover;
+    
+    text-align: center;
+    
+}
